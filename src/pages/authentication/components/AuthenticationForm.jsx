@@ -18,11 +18,11 @@ const AuthenticationForm = () => {
   const navigate = useNavigate();
 
   // Mock credentials for authentication
-  const mockCredentials = {
-    admin: { username: 'admin', password: 'admin123', fullName: 'Admin User', email: 'admin@careeradvisor.ai' },
-    user: { username: 'user', password: 'user123', fullName: 'John Doe', email: 'john@example.com' },
-    demo: { username: 'demo', password: 'demo123', fullName: 'Demo User', email: 'demo@careeradvisor.ai' }
-  };
+  // const mockCredentials = {
+  //   admin: { username: 'admin', password: 'admin123', fullName: 'Admin User', email: 'admin@careeradvisor.ai' },
+  //   user: { username: 'user', password: 'user123', fullName: 'John Doe', email: 'john@example.com' },
+  //   demo: { username: 'demo', password: 'demo123', fullName: 'Demo User', email: 'demo@careeradvisor.ai' }
+  // };
 
   const handleInputChange = (e) => {
     const { name, value } = e?.target;
